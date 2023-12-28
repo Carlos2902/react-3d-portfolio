@@ -49,11 +49,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "FullStack Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UX/UI Designer",
       icon: creator,
     },
   ];
