@@ -112,11 +112,12 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer Student",
+      title: "FullStack JavaScript Student",
       company_name: "Platzi",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - Present",
+      place: "Online.",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -132,8 +133,24 @@ import {
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Sep 2023 - Present",
+      place: "Toronto, CA.",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+
+    {
+      title: "FullStack Developer - Ecommerce",
+      company_name: "GMB Ambiente",
+      icon: shopify,
+      iconBg: "#E6DEDD",
+      place: "Oaxaca, MX.",
+      date: "Sep 2020",
+      points: [
+        "Introduce the ecommerce abilities...",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
