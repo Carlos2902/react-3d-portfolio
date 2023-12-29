@@ -4,7 +4,7 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    
     html,
     css,
     reactjs,
@@ -15,11 +15,11 @@ import {
     figma,
     docker,
     platzi,
-    shopify,
     carrent,
     jobit,
     threejs,
     humber,
+    gmbAmbiente,
   } from "../assets";
   
   export const navLinks = [
@@ -139,8 +139,8 @@ import {
     {
       title: "FullStack Developer - Ecommerce",
       company_name: "GMB Ambiente",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: gmbAmbiente,
+      iconBg: "#E6DEDD",
       place: "Oaxaca, MX.",
       date: "Sep 2020",
       points: [
