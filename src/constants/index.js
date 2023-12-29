@@ -14,14 +14,12 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
+    platzi,
     shopify,
     carrent,
     jobit,
-    // tripguide,
     threejs,
+    humber,
   } from "../assets";
   
   export const navLinks = [
@@ -114,8 +112,8 @@ import {
     {
       title: "FullStack JavaScript Student",
       company_name: "Platzi",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: platzi,
+      iconBg: "#E6DEDD",
       date: "March 2020 - Present",
       place: "Online.",
       points: [
@@ -130,7 +128,7 @@ import {
     {
       title: "Web Design & Developer student",
       company_name: "Humber College",
-      icon: meta,
+      icon: humber,
       iconBg: "#E6DEDD",
       date: "Sep 2023 - Present",
       place: "Toronto, CA.",
@@ -146,7 +144,7 @@ import {
       title: "FullStack Developer - Ecommerce",
       company_name: "GMB Ambiente",
       icon: shopify,
-      iconBg: "#E6DEDD",
+      iconBg: "#383E56",
       place: "Oaxaca, MX.",
       date: "Sep 2020",
       points: [
