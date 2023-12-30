@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// technologies
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,8 +21,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cplusplus from "./tech/cplusplus.png";
+import mysql from "./tech/mysql.png";
 
 
+// companies
 import humber from "./company/humber.png";
 import platzi from "./company/platzi.png";
 import gmbAmbiente from "./company/gmbAmbiente.png";
@@ -43,6 +47,8 @@ export {
   menu,
   close,
   css,
+  cplusplus,
+  mysql,
   docker,
   figma,
   git,

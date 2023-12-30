@@ -4,16 +4,15 @@ import {
     creator,
     web,
     javascript,
-    
     html,
     css,
     reactjs,
-    redux,
+    cplusplus,
     tailwind,
     mongodb,
     git,
     figma,
-    docker,
+    mysql,
     platzi,
     carrent,
     jobit,
@@ -74,17 +73,18 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "C++",
+      icon: cplusplus,
     },
+   
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    
+    // add sql icon
     {
       name: "SQL",
-      icon: mongodb,
+      icon: mysql,
     },
     {
       name: "Three JS",
@@ -98,10 +98,7 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "C++",
-      icon: docker,
-    },
+    // add c++ icon
   ];
   
   const experiences = [
