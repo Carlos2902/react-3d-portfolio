@@ -43,6 +43,22 @@ const Contact = () => {
     // public-key:
     'k7tE2ny79L75qaY5-'
     )
+    .then(()=>{
+      setLoading(false);
+      alert('Thank you. I will get back to you as soon as possible.');
+
+      setForm({
+        name: '',
+        email: '',
+        messsage: '',
+      })
+    }, (error)=>{
+      setLoading(false)
+
+      console.log(error);
+
+      alert('Something went wrong.')
+    })
   }
 
   return (
