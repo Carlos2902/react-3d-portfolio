@@ -154,27 +154,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Daniel londono",
-      designation: "SemiSenior Developer",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Carlos has consistently demonstrated exceptional communication skills within his team, fostering a collaborative and productive enviroment.",
+      name: "Mark Meritt Jr.",
+      designation: "CEO",
+      company: "Apptist Inc.",
+      image: "https://media.licdn.com/dms/image/C4E03AQGM6I6v6jWrIQ/profile-displayphoto-shrink_400_400/0/1634270949338?e=1714608000&v=beta&t=UEoo8gIIUzWzdKAp_7ao-AX5hx78lS2Ty5oo1T5oyHE",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I would highly recommend Carlos for any employment opportunity, confident in his ability to excel and positively impact any team or project he is involved in.",
+      name: "Dylan Ravka",
+      designation: "Senior Dev",
+      company: "Unity",
+      image: "https://media.licdn.com/dms/image/C5603AQHRJkU9M3npQQ/profile-displayphoto-shrink_400_400/0/1654741220635?e=1714608000&v=beta&t=R99ZK8nZIacdoSb_xq2LZoHZ-3GQC7dvdS9vfL5xSKc",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Working with Carlos has been a pleasure. He demonstrates efficiency in his work and facilitates seamless collaboration within the team.",
+      name: "Daniel Londono",
+      designation: "Semi Senior Dev",
+      company: "Ressolve AI",
+      image: "https://avatars.githubusercontent.com/u/46074211?v=4",
     },
   ];
   
