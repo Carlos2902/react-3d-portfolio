@@ -1,4 +1,5 @@
 import {
+    nodejs,
     mobile,
     backend,
     creator,
@@ -86,6 +87,10 @@ import {
     {
       name: "Three JS",
       icon: threejs,
+    },
+    {
+      name: "Node js",
+      icon: nodejs,
     },
     {
       name: "git",
