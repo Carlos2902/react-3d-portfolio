@@ -9,16 +9,16 @@ import {
     reactjs,
     cplusplus,
     tailwind,
-    mongodb,
     git,
     figma,
     mysql,
     platzi,
-    carrent,
-    jobit,
     threejs,
     humber,
     gmbAmbiente,
+    oaxaca,
+    gpt,
+    travel,
   } from "../assets";
   
   export const navLinks = [
@@ -180,16 +180,15 @@ import {
   
   const projects = [
     {
-      name: "Ecommerce",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "Oaxaca Restaurant Landing Page",
+      description: "The Oaxaca Restaurant project serves as a showcase of a restaurant webpage featuring Oaxacan cuisine, highlighting the rich culinary heritage of the region",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "figma",
           color: "green-text-gradient",
         },
         {
@@ -197,13 +196,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: oaxaca,
+      source_code_link: "https://github.com/Carlos2902/oaxaca-restaurant",
     },
+
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      name: "GPT-SummarizeHub Rapid Article Summarizer",
+      description:"Web application summarizer created with the use of the Article Extractor and Summarizer API.  The API efficiently extracts and summarizes articles from specified URLs.      ",
       tags: [
         {
           name: "react",
@@ -214,13 +213,35 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: gpt,
+      source_code_link: "https://github.com/Carlos2902/GPT-SummarizeHub-Rapid-Article-Summarizer",
     },
+    
+    {
+      name: "Airhub Travel Tracker Web Application",
+      description:"Web application designed to assist travelers in tracking flights. it offers comprehensive functionalities for tracking planes, accessing arrival schedule and weather checking",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap5",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: travel,
+      source_code_link: "https://github.com/Carlos2902/AirHub-Travel-Tracker",
+    },
+
     
   ];
   

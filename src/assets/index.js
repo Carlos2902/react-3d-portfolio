@@ -30,11 +30,18 @@ import humber from "./company/humber.png";
 import platzi from "./company/platzi.png";
 import gmbAmbiente from "./company/gmbAmbiente.png";
 
-import carrent from "./carrent.png";
+// projects
+import oaxaca from "./oaxacaRstnt.png"
+import gpt from './GPT SummarizeHub.png'
 import jobit from "./jobit.png";
-// import tripguide from "./tripguide.png";
+import carrent from './carrent.png'
+import travel from './travel tracker.png'
+
 
 export {
+  travel,
+  gpt,
+  oaxaca,
   gmbAmbiente,
   platzi,
   humber,
@@ -63,5 +70,4 @@ export {
   threejs,
   carrent,
   jobit,
-  // tripguide,
 };
