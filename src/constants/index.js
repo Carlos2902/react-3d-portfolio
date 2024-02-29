@@ -45,10 +45,7 @@ import {
       title: "React Developer",
       icon: mobile,
     },
-    {
-      title: "FullStack Developer",
-      icon: backend,
-    },
+
     {
       title: "UX/UI Designer",
       icon: creator,

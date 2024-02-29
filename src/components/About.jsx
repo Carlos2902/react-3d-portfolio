@@ -50,15 +50,9 @@ const About = () => {
         className='mt-4 text-secondary text-[17px]
       max-w-3xl leading-[30px]'
       >
-        I am a skilled software developer 
-        with experience in JavaScript, C++, HTML, 
-        CSS, and frameworks like React and Three.js, 
-        as well as build tools like Vite. 
-        I am a quick learner and collaborate 
-        closely with clients to create efficient, 
-        scalable, and user-friendly solutions that solve real-world problem.
+        I am a skilled software developer with experience in JavaScript, C++, HTML, CSS, and frameworks like React, as well as build tools like Vite. I have also worked with Express.js in various projects, contributing to server-side development. I am a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap justify-center gap-10'>
         {services.map((service, index) =>
         (
           <ServiceCard key={service.title}
