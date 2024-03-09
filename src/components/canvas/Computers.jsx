@@ -5,27 +5,26 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({isMobile}) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./fluxs_pit_stop/scene.gltf");
 
   return (
     <mesh>
       {/* Adjust the intensity property of the lights */}
-      <hemisphereLight intensity={0.7} groundColor='black' />
-      <pointLight intensity={4} />
-      <spotLight
-        position={[-20, 50, 10]}
-        angle={0.12}
-        penumbra={1}
-        intensity={1} 
-        castShadow
-        shadow-mapSize={1024}
-      />
-      <primitive
-        object={computer.scene}
-        scale={isMobile ? 0.65 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
-      />
+      <hemisphereLight intensity={10} groundColor='black' />
+<pointLight intensity={20} />
+<spotLight
+  position={[-20, 50, 10]}
+  angle={0.12}
+  intensity={5} // Increase intensity
+  castShadow
+  shadow-mapSize={1024}
+/>
+        <primitive
+      object={computer.scene}
+      scale={isMobile ? 1.25 : 2} // Change this value to make the model bigger
+      position={isMobile ? [0, -1.5, 0] : [0, -3, -0.1]} // Adjust X position for mobile
+      rotation={[0, 1, -0.1]}
+    />
     </mesh>
   );
 };
@@ -59,7 +58,7 @@ const Computers = ({isMobile}) => {
       <Canvas
         frameloop="demand"
         shadows
-        camera={{position: [20, 3, 5], fov:25}}
+        camera={{position: [20, 3, 5], fov:23}}
         gl={{ preserveDrawingBuffer: true }}
       >
         <Suspense fallback={<CanvasLoader/>}>
