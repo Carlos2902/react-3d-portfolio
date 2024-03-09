@@ -16,7 +16,6 @@ const App = () => {
         <About/>
         <Experience/>
         <Tech/>
-        {/* current progress: */}
         <Works/>
         <Feedbacks/>
 

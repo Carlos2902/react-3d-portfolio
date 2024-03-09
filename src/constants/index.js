@@ -104,20 +104,7 @@ import {
   ];
   
   const experiences = [
-    {
-      title: "FullStack JavaScript Student",
-      company_name: "Platzi",
-      icon: platzi,
-      iconBg: "#E6DEDD",
-      date: "March 2020 - Present",
-      place: "Online.",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+  
     
    
     {
@@ -128,25 +115,23 @@ import {
       date: "Sep 2023 - Present",
       place: "Toronto, CA.",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developed web applications using React.js and Express.js.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participated in code reviews and providing constructive feedback to other developers.",
       ],
     },
 
     {
-      title: "FullStack Developer - Ecommerce",
-      company_name: "GMB Ambiente",
+      title: "Frontend Web Developer",
+      company_name: "GMB ProAmbiente",
       icon: gmbAmbiente,
       iconBg: "#E6DEDD",
       place: "Oaxaca, MX.",
       date: "Sep 2020",
       points: [
-        "Introduce the ecommerce abilities...",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and coded an engaging, informative landing application using React, reaching 10 thousand individuals within the local area",
+        "Collaborated with cross-functional teams including designers and product managers to create a high-quality webpage.",
+        "Implemented responsive design and ensuring cross-browser compatibility.",
       ],
     },
   ];
