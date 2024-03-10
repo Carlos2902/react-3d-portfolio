@@ -112,7 +112,7 @@ import {
       company_name: "Humber College",
       icon: humber,
       iconBg: "#E6DEDD",
-      date: "Sep 2023 - Present",
+      date: "Sep 2023 - Abr 2024",
       place: "Toronto, CA.",
       points: [
         "Developed web applications using React.js and Express.js.",
@@ -127,10 +127,10 @@ import {
       icon: gmbAmbiente,
       iconBg: "#E6DEDD",
       place: "Oaxaca, MX.",
-      date: "Sep 2020",
+      date: "Sep 2020 - Jan 2021 ",
       points: [
         "Designed and coded an engaging, informative landing application using React, reaching 10 thousand individuals within the local area",
-        "Collaborated with cross-functional teams including designers and product managers to create a high-quality webpage.",
+        "Collaborated with cross-functional teams including product managers to create a high-quality webpage.",
         "Implemented responsive design and ensuring cross-browser compatibility.",
       ],
     },

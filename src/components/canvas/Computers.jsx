@@ -21,7 +21,7 @@ const Computers = ({isMobile}) => {
 />
         <primitive
       object={computer.scene}
-      scale={isMobile ? 1.25 : 2} // Change this value to make the model bigger
+      scale={isMobile ? 1.25 : 2.5} // Change this value to make the model bigger
       position={isMobile ? [0, -1.5, 0] : [0, -3, -0.1]} // Adjust X position for mobile
       rotation={[0, 1, -0.1]}
     />
